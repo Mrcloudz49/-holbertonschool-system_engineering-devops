@@ -2,7 +2,7 @@
 #loop using while to display Best School ten times
 
 COUNTER=0
-while [ %COUNTER -lt 10]
+while [ %COUNTER -lt 10 ]
 do
 
 echo "Best School"
