@@ -6,7 +6,7 @@ COUNTER=0
 while [ $COUNTER -lt 11 ]
 do
 
-if [ $COUNTER - 9 ]
+if [ $COUNTER = 9 ]
 
 then
 echo "Hi"
