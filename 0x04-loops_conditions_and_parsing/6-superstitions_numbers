@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# bad luck from China,Japan and Italy
+
+COUNTER=0
+while [ $COUNTER -lt 25 ]
+      if [ $COUNTER = 4 ]
+      then
+	echo "bad luck from China"
+      elif [ $COUNTER = 9 ]
+      then
+      echo " bad luck from Japan"
+      elif [ $COUNTER = 17 ]
+      then
+      echo "bad luck from Italy"
+      else
+      echo [ 1..20 ]
+      fi
+      (( COUNTER+=1 ))
+      done
+      
