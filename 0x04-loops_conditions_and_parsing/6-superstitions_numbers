@@ -2,19 +2,14 @@
 # bad luck from China,Japan and Italy
 
 COUNTER=1
-while [ $COUNTER -lt 21 ] ; do
-      if [ $COUNTER = 4 ]
-      then
-	echo "bad luck from China"
-      elif [ $COUNTER = 9 ]
-      then
-      echo " bad luck from Japan"
-      elif [ $COUNTER = 17 ]
-      then
-      echo "bad luck from Italy"
-      else
-      echo "$COUNTER"
-      fi
-      (( COUNTER+=1 ))
-      done
+while [ $COUNTER -lt 21 ]  do
+    case $COUNTER in
+	4) echo "bad from China" ;;
+	9) echo "bad from Japan" ;;
+	17) echo "bad from Italy" ;;
+	*) echo $COUNTER ;;
+    esac
+    (( COUNTER+=1 ))
+done
+
       
