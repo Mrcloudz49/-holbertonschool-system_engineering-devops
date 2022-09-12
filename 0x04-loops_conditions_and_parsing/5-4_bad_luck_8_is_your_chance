@@ -2,7 +2,7 @@
 #bad luck on line four and good luck on line eight
 
 COUNTER=1
-while[ $COUNTER -lt 11 ]
+while [ $COUNTER -lt 11 ]
 do
 	if [ $COUNTER = 4 ]
 	then
