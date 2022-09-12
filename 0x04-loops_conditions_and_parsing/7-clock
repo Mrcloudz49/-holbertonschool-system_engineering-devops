@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 #clock
-
 HOURS=0
 while [ $HOURS -lt 13 ]
 do
-echo "Hours: $HOURS"
+echo " Hours: $HOURS"
 MINUTES=1
 while [ $MINUTES -lt 60 ]
 do
