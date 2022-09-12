@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # bad luck from China,Japan and Italy
 
-COUNTER=0
-while [ $COUNTER -lt 25 ]
+COUNTER=1
+while [ $COUNTER -lt 21 ] ; do
       if [ $COUNTER = 4 ]
       then
 	echo "bad luck from China"
@@ -13,7 +13,7 @@ while [ $COUNTER -lt 25 ]
       then
       echo "bad luck from Italy"
       else
-      echo [ 1..20 ]
+      echo "$COUNTER"
       fi
       (( COUNTER+=1 ))
       done
