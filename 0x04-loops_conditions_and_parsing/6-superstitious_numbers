@@ -2,7 +2,7 @@
 #bad from China Japan and Italy
 
 COUNTER=1
-while [ $COUNTER -lt 24 ] ; do
+while [ $COUNTER -lt 21 ] ; do
 case $COUNTER in
     4) echo $COUNTER
        echo "bad luck from China"  ;;
