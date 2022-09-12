@@ -5,17 +5,18 @@ COUNTER=1
 
 while [ $COUNTER -lt 101 ]
 do
-if [ $COUNTER %3 ]
+if [ $((COUNTER%3)) = 0 ]
 then
 echo "Fizz"
-fi
-if [ $COUNTER %5 ]
+elif [ $((COUNTER%5)) = 0 ]
 then
 echo "Buzz"
-fi
-if [ $COUNTER %3 %5 ]
+
+elif [ $((COUNTER%15)) = 0 ]
 then
-echo FizzBuzz
+    echo FizzBuzz
+else
+    echo "$COUNTER"
 fi
 (( COUNTER+=1 ))
 done
