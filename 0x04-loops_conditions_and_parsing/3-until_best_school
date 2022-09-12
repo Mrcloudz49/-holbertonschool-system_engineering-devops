@@ -3,7 +3,7 @@
 
 COUNTER=10
 
-until [ $COUNTER =lt 1 ]
+until [ $COUNTER = lt 1 ]
 
 do
 
