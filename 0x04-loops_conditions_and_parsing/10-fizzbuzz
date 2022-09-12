@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#fizz buzz
+
+COUNTER=1
+
+while [ $COUNTER -lt 101 ]
+do
+if [ $COUNTER %3 ]
+then
+echo "Fizz"
+fi
+if [ $COUNTER %5 ]
+then
+echo "Buzz"
+fi
+if [ $COUNTER %3 %5 ]
+then
+echo FizzBuzz
+fi
+(( COUNTER+=1 ))
+done
