@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #displays all currently running processes
 
-ps -ef | less
+ps -ef
+
 
 
