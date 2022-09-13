@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 #displays the PID with the word bash
 
-pgrep =1 "bash"
+pgrep -1 "bash"
+
