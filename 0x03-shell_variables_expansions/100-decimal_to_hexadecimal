@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Decimal to hexadecimal
+
+echo $(( 10#$hex ))
