@@ -1,5 +1,10 @@
-#!/usr/bin/bash
-echo $(( 10#$hex ))
+#!/bin/bash
+printf "%x\n" $decimal
+
+
+
+
+
 
 
 
